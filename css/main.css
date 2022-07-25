@@ -392,3 +392,57 @@ template {
   color: #333d4b;
   text-decoration: none;
 }
+
+.great-coffee-made--section {
+  background-image: url(../images/Bitmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding-left: 86px;
+  width: 1400px;
+  height: 600px;
+  padding-top: 100px;
+}
+
+.great-coffe-made-simple__h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #fefcf7;
+  width: 493px;
+  height: 145px;
+}
+
+.great-coffee-made-simple__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 445px;
+  margin-top: 32px;
+  margin-bottom: 56px;
+}
+
+.great-coffee-made-simple__btn {
+  padding: 15px 31px;
+  background-color: #66d2cf;
+  border-radius: 6px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #fefcf7;
+}
+
+
