@@ -362,6 +362,13 @@ template {
   margin: 0px 80px;
 }
 
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  background-color: #fff;
+}
+
 .header__inner {
   display: flex;
   align-items: center;
