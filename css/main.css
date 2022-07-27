@@ -396,8 +396,12 @@ template {
   /* identical to box height, or 125% */
   letter-spacing: 0.923077px;
   text-transform: uppercase;
-  color: #333d4b;
+  color: #83888f;
   text-decoration: none;
+}
+
+.header__menu-item a:hover {
+  color: #333d4b;
 }
 
 .made__section {
