@@ -765,6 +765,10 @@ body {
   cursor: pointer;
 }
 
+.footer-social-icons__box a {
+  text-decoration: none;
+}
+
 .footer-social-icons__box img {
   margin: 20px;
 }
