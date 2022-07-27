@@ -398,6 +398,7 @@ template {
   text-transform: uppercase;
   color: #83888f;
   text-decoration: none;
+  transition: 0.3s ease;
 }
 
 .header__menu-item a:hover {
