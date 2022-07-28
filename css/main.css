@@ -359,6 +359,7 @@ template {
 
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -373,6 +374,7 @@ body {
   top: 0px;
   z-index: 2;
   background-color: #fff;
+  width: 100%;
 }
 
 .header__inner {
@@ -417,7 +419,6 @@ body {
   background-size: cover;
   border-radius: 10px;
   padding-left: 86px;
-  width: 1400px;
   height: 600px;
   padding-top: 100px;
 }
@@ -579,11 +580,11 @@ body {
 }
 
 .about-preference__box-inner-boxes:nth-child(1) {
-  left: 130px;
+  left: 10px;
 }
 
 .about-preference__box-inner-boxes:nth-child(3) {
-  right: 130px;
+  right: 10px;
 }
 
 .about-preference__box-inner-boxes-img {
@@ -726,6 +727,10 @@ body {
 .footer {
   background-color: #2c343e;
   padding: 45px 85px;
+  width: 100%;
+}
+
+.footer-container__inner-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
