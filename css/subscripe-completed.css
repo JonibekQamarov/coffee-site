@@ -15,6 +15,7 @@
   background-color: black;
   padding: 85px;
   border-radius: 10px;
+  margin-top: 100px;
 }
 
 .circle {
@@ -32,4 +33,3 @@
 .triple-box-text-info {
   color: #fff;
 }
-
