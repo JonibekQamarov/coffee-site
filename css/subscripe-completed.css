@@ -1,0 +1,34 @@
+.main-section__subscripe-completed {
+  width: 1440px;
+}
+.subscripe-completed__box {
+  background-image: url("../images/subscripe-completed/subscripe-coffe-title.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+  padding-left: 86px;
+  height: 450px;
+  padding-top: 100px;
+}
+
+.working-step__section-black {
+  background-color: black;
+  padding: 85px;
+  border-radius: 10px;
+}
+
+.circle {
+  background-color: transparent;
+}
+
+.line {
+  left: 10px;
+}
+
+.triple-box-h3 {
+  color: #fff;
+}
+
+.triple-box-text-info {
+  color: #fff;
+}
