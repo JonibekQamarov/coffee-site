@@ -1,3 +1,125 @@
+/* barlow-300 - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/barlow-v12-latin-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/barlow-v12-latin-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/barlow-v12-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/barlow-v12-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/barlow-v12-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/barlow-v12-latin-300.svg#Barlow")
+      format("svg"); /* Legacy iOS */
+}
+/* barlow-regular - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/barlow-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/barlow-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/barlow-v12-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/barlow-v12-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/barlow-v12-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/barlow-v12-latin-regular.svg#Barlow") format("svg"); /* Legacy iOS */
+}
+/* barlow-500 - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/barlow-v12-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/barlow-v12-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/barlow-v12-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/barlow-v12-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/barlow-v12-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/barlow-v12-latin-500.svg#Barlow")
+      format("svg"); /* Legacy iOS */
+}
+/* barlow-600 - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/barlow-v12-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/barlow-v12-latin-600.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/barlow-v12-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/barlow-v12-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/barlow-v12-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/barlow-v12-latin-600.svg#Barlow")
+      format("svg"); /* Legacy iOS */
+}
+/* barlow-900 - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/barlow-v12-latin-900.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/barlow-v12-latin-900.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/barlow-v12-latin-900.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/barlow-v12-latin-900.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/barlow-v12-latin-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/barlow-v12-latin-900.svg#Barlow")
+      format("svg"); /* Legacy iOS */
+}
+/* fraunces-regular - latin */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fraunces-v23-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/fraunces-v23-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/fraunces-v23-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/fraunces-v23-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/fraunces-v23-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/fraunces-v23-latin-regular.svg#Fraunces") format("svg"); /* Legacy iOS */
+}
+/* fraunces-900 - latin */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/fraunces-v23-latin-900.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/fraunces-v23-latin-900.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/fraunces-v23-latin-900.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/fraunces-v23-latin-900.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/fraunces-v23-latin-900.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/fraunces-v23-latin-900.svg#Fraunces") format("svg"); /* Legacy iOS */
+}
+
+* {
+  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif;
+}
+
 .main-section__subscripe-completed {
   width: 1440px;
 }
@@ -32,4 +154,96 @@
 
 .triple-box-text-info {
   color: #fff;
+}
+
+.selected__section {
+  margin-top: 150px;
+}
+
+.selected__box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-box__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 55px 0px;
+}
+
+.form-box__heading h3 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888f;
+}
+
+.form-box__heading:nth-child(1) {
+  margin-top: 10px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.coffee-drink__box {
+  position: relative;
+}
+
+.coffee-drink-label-box {
+  background-color: #f4f1eb;
+  border-radius: 8px;
+  padding: 32px 24px;
+  display: inline-block;
+  width: 228px;
+  height: 250px;
+  margin-right: 23px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.coffee-drink-label-box span {
+  display: block;
+}
+
+.coffee-drink-label-box span:nth-child(1) {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  color: #333d4b;
+  margin-bottom: 24px;
+  font-family: "Fraunces 9pt";
+}
+.coffee-drink-label-box span:nth-child(2) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Barlow";
+}
+
+.coffee-drink__box input[type="radio"]:checked + .coffee-drink-label-box {
+  background-color: #0e8784;
+  color: #ffffff;
+}
+
+.coffee-drink__box
+  input[type="radio"]:checked
+  + .coffee-drink-label-box
+  span:nth-child(1) {
+  color: #ffffff;
+}
+
+.coffee-drink-label-box:hover {
+  background-color: #fdd6ba;
 }
