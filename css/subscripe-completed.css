@@ -120,6 +120,10 @@
   font-family: "Fraunces", serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main-section__subscripe-completed {
   width: 1440px;
 }
