@@ -164,6 +164,35 @@ html {
   margin-top: 150px;
 }
 
+.selected-box__nav-link {
+  list-style: none;
+}
+
+.selected-box__nav-link a {
+  text-decoration: none;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #9c9c9c;
+  transition: 0.5s ease;
+}
+
+.selected-box__nav-link {
+  padding: 24px;
+  border-bottom: 1px solid #83888f;
+}
+
+.selected-box__nav-link a span:nth-child(1) {
+  margin-right: 24px;
+}
+
+.selected-box__nav-link a:hover {
+  color: #333d4b;
+}
+
 .selected__box {
   display: flex;
   justify-content: space-around;
@@ -250,4 +279,49 @@ html {
 
 .coffee-drink-label-box:hover {
   background-color: #fdd6ba;
+}
+
+.order-summary__box {
+  width: 730px;
+  height: 200px;
+  background-color: #333d4b;
+  color: #fff;
+  font-family: "Fraunces 9pt";
+  padding: 31px 64px;
+  margin-top: 84px;
+}
+
+.order-summary__title {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-transform: uppercase;
+  color: #eaeaea;
+}
+
+.order-summary__text-info {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.order-summary__text-info-inner {
+  color: #0e8784;
+}
+
+.order-summary-box__btn {
+  width: 730px;
+}
+
+.order-summary__btn {
+  margin-top: 40px;
+  margin-left: 550px;
 }
