@@ -1,0 +1,107 @@
+.working-step__section {
+  padding-top: 100px;
+
+  .working-step__section-title {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    color: #83888f;
+    margin-bottom: 70px;
+  }
+
+  .circle-line__box {
+    position: relative;
+
+    .circle {
+      background-color: #fefcf7;
+      width: 31px;
+      height: 31px;
+      border-radius: 50%;
+      border: 2px solid #0e8784;
+      display: inline-block;
+      position: absolute;
+      z-index: 1;
+
+      &:nth-child(3) {
+        left: 350px;
+      }
+
+      &:nth-child(4) {
+        left: 750px;
+      }
+    }
+
+    .line {
+      top: 15px;
+      width: 760px;
+      height: 1px;
+      display: inline-block;
+      border: 2px solid #fdd6ba;
+      position: absolute;
+    }
+  }
+
+  .working-step__triple-box {
+    padding-top: 100px;
+    display: flex;
+    gap: 110px;
+
+    .working-step-triple-box__inner {
+      width: 255px;
+
+      .triple-box-number {
+        font-family: "Fraunces 9pt";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        /* identical to box height, or 100% */
+        color: #fdd6ba;
+        margin-bottom: 35px;
+      }
+
+      .triple-box-h3 {
+        font-family: "Fraunces 9pt";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        /* or 112% */
+        color: #333d4b;
+        margin-bottom: 40px;
+        width: 200px;
+      }
+
+      .triple-box-text-info {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        /* or 162% */
+        color: #333d4b;
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  .great-coffee-made-simple__btn {
+    background-color: #66d2cf;
+    border-radius: 6px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
+    text-align: center;
+    color: #fefcf7;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 200px;
+  }
+}
