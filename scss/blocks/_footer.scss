@@ -48,10 +48,15 @@
     .footer-social-icons__box {
       a {
         text-decoration: none;
+        color: #fff;
+
+        &:hover {
+          color: #fdd6ba;
+        }
       }
 
-      img {
-        margin: 20px;
+      svg {
+        margin: 15px;
       }
     }
   }

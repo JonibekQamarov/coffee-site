@@ -489,9 +489,14 @@ body {
 
 .footer .footer-container__inner-flex .footer-social-icons__box a {
   text-decoration: none;
+  color: #fff;
 }
 
-.footer .footer-container__inner-flex .footer-social-icons__box img {
-  margin: 20px;
+.footer .footer-container__inner-flex .footer-social-icons__box a:hover {
+  color: #fdd6ba;
+}
+
+.footer .footer-container__inner-flex .footer-social-icons__box svg {
+  margin: 15px;
 }
 /*# sourceMappingURL=main.css.map */
