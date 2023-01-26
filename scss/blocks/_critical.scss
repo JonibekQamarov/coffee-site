@@ -15,4 +15,9 @@ body {
 .container {
   max-width: 1400px;
   margin: 0px 80px;
+
+  @media (max-width: $tablet) {
+    max-width: $tablet;
+    margin: 0px 40px;
+  }
 }

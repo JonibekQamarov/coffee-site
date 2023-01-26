@@ -8,12 +8,20 @@
   z-index: 2;
   width: 100%;
 
+  @media (max-width: $tablet) {
+    max-width: $tablet;
+  }
+
   .header-box {
     .header__inner {
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 730px;
+
+      @media (max-width: $tablet) {
+        gap: 150px;
+      }
 
       .header__menu {
         display: flex;
@@ -36,6 +44,11 @@
           color: #83888f;
           text-decoration: none;
           transition: 0.3s ease;
+          white-space: nowrap;
+
+          @media (max-width: $tablet) {
+            white-space: nowrap;
+          }
 
           &:hover {
             color: #333d4b;
