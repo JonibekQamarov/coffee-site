@@ -1,15 +1,23 @@
 .working-step__section {
   padding-top: 100px;
 
+  @media (max-width: $tablet) {
+    max-width: $tablet;
+    padding-top: 150px;
+  }
+
   .working-step__section-title {
     font-family: "Fraunces 9pt";
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
-    /* identical to box height, or 133% */
     color: #83888f;
     margin-bottom: 70px;
+
+    @media (max-width: $tablet) {
+      font-size: 28px;
+    }
   }
 
   .circle-line__box {
@@ -27,10 +35,18 @@
 
       &:nth-child(3) {
         left: 350px;
+
+        @media (max-width: $tablet) {
+          left: 230px;
+        }
       }
 
       &:nth-child(4) {
         left: 750px;
+
+        @media (max-width: $tablet) {
+          left: 450px;
+        }
       }
     }
 
@@ -41,6 +57,10 @@
       display: inline-block;
       border: 2px solid #fdd6ba;
       position: absolute;
+
+      @media (max-width: $tablet) {
+        width: 467px;
+      }
     }
   }
 
@@ -49,8 +69,16 @@
     display: flex;
     gap: 110px;
 
+    @media (max-width: $tablet) {
+      gap: 30px;
+    }
+
     .working-step-triple-box__inner {
       width: 255px;
+
+      @media (max-width: $tablet) {
+        width: 200px;
+      }
 
       .triple-box-number {
         font-family: "Fraunces 9pt";
@@ -73,6 +101,13 @@
         color: #333d4b;
         margin-bottom: 40px;
         width: 200px;
+
+        @media (max-width: $tablet) {
+          font-size: 28px;
+          margin: 0px;
+          height: 72px;
+          width: 180px;
+        }
       }
 
       .triple-box-text-info {

@@ -3,19 +3,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #2c343e;
+  @media (max-width: $tablet) {
+    max-width: $tablet;
+  }
 
   .footer-container__inner-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px 125px;
-    background-color: #2c343e;
+
     width: 100%;
+
+    @media (max-width: $tablet) {
+      max-width: $tablet;
+      padding: 30px 0px;
+      flex-direction: column;
+    }
 
     .footer-couple {
       display: flex;
       align-items: center;
       gap: 155px;
+
+      @media (max-width: $tablet) {
+        gap: 40px;
+        flex-direction: column;
+      }
 
       .footer-ul {
         display: flex;
